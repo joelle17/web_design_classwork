@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)http://students.gctaa.net/~jejemplo/ciw/labs/transitions1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>CSS Transitions I</title>
+<style>
+h1, footer {
+    text-align: center;
+}
+footer a, footer a:visited {
+    text-decoration: none;
+    color: #555;
+}
+#img-rotate {
+-webkit-transform: rotate(180deg);
+transform: rotate(180deg);
+}
+#lorem {
+   width: 150px;
+  height: 100px;
+  background: #8f708d;
+  transition: width 2s, height 2s, transform 2s;
+}
+#lorem:hover {
+  width: 250px;
+   height: 200px;
+  transform: rotate(0deg);
+}
+@keyframes animation {
+0% {left: 0px; top: 0px;}
+50% {left: 200px; top: 0px;}
+100% {left: 0px; top: 0px;}
+}
+#animation {
+  position:relative;
+
+  -webkit-animation-name: animation;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction: reverse;
+  -webkit-animation-play-state: running;
+
+  animation-name: animation;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-play-state: running;
+}
+
+</style>
+</head>
+<body>
+<h1>CSS Transitions I</h1>
+
+<section id="experiment1">
+<h2>Experiment 1</h2>
+<img id="img-rotate" src="http://students.gctaa.net/~jmckenzie/ciw_lessons/IMG_1818.jpg" height="100" alt="My Dog"/>
+</section>
+
+<section id="experiment2">
+<h2>Experiment 2</h2>
+<p id="lorem">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</p>
+</section>
+
+<section id="experiment3">
+<h2>Experiment 3</h2>
+<img id="animation" src="http://students.gctaa.net/~jmckenzie/ciw_lessons/IMG_1818.jpg" height="100" alt="My Dog"/>
+</section>
+
+<footer>
+<a href="http://validator.w3.org/check?uri=http://students.gctaa.net/~jmckenzie/ciw_lessons/css_transitions.htm">
+<strong> HTML </strong> Valid! </a> |
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://students.gctaa.net/~jmckenzie/ciw_lessons/css_transitions.htm?profile=css3">
+<strong> CSS </strong> Valid! </a>
+</footer>
+
+
+
+</body></html>

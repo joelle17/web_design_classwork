@@ -1,0 +1,29 @@
+body {
+  margin: 50px;
+  background-color: #d6a8e6;
+}
+header {
+  display: block;
+  margin: -35px -25px 0px -25px;
+  background-color: #371d40;
+  border: 2px solid #371d40;
+}
+header h1 {
+  text-align: center;
+  color: #fcf5ff;
+}
+header nav {
+  display: table;
+}
+nav {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 40px;
+}  
+nav a, nav a:visited {
+  padding: 10px;
+  border: 1px  #371d40;
+  color: #fcf5ff; 
+  background-color: #cf8ae6;
+}

@@ -1,0 +1,69 @@
+body {
+  background-color: #FFF8DC;
+  margin: 40px;
+}
+section {
+  background-color: #FFF8DC;
+  padding: 20px;
+}
+h1, footer {
+  text-align: center;
+}
+footer {
+  margin-top: 20px;
+}
+a:link, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+b {
+  color: #800000;
+}
+strong {
+  color: #D2691E;
+}
+em {
+  color: #D2691E;
+}
+i {
+  color: #800000;
+}
+code {
+  color: #D2691E;
+}
+kbd {
+  color: #800000;
+}
+sup {
+  color:  #D2691E;
+}
+sub {
+  color: #800000;
+}
+q {
+  text-decoration: underline;
+}
+span {
+  color: #D922C3;
+}
+footer {
+	text-align: center;
+  	margin-top: 40px;
+  	font-size: .9em;
+}
+footer a {
+	border: 1px solid #777;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 2px;
+	margin-right: 10px;
+ 	background-color: #FFF;
+}
+footer a > strong {
+ 	background-color: #9932CC;
+	color: #FFF;
+	padding: 2px;
+ 	padding-left: 4px;
+	margin-right: 2px;
+}
+
